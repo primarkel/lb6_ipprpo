@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ParfumShop {
 
-    // Рассчитать цену с учетом маржи
+    // Рассчитать цену с учетом maржи
     public double calculatePrice(double basePrice, double margin) {
         return basePrice + (basePrice * margin);
     }
