@@ -19,7 +19,7 @@ public class Main {
         double finalPrice = shop.totalPriceForCart(basePrices, margins, isPremium);
 
         // Расчёт бонусных баллов
-        int bonusPoints = shop.calculateBonusPoints(finalPrice);
+        int bonusPoints = shop.calculateBonusPoints(finalPrice); //
 
         // Вывод результатов
         System.out.println("====== Parfum Shop Sales System ======");
