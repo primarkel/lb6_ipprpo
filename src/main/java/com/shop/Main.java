@@ -21,7 +21,7 @@ public class Main {
         // Расчёт бонусных баллов
         int bonusPoints = shop.calculateBonusPoints(finalPrice); //
 
-        // Вывод результатов
+        // Вывод результатов  fnrkflovrlljknv
         System.out.println("====== Parfum Shop Sales System ======");
         System.out.println("История покупок клиента: " + clientPurchasesHistory);
         System.out.println("Премиум клиент: " + (isPremium ? "Да" : "Нет"));
